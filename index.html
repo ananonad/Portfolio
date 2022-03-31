@@ -1,13 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="has-navbar-fixed-top">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123564407-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-123564407-1');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anano Nad</title>
+    <!-- import  konpa icons -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <!-- import bulma.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <!-- import local stylesheet -->
     <link rel="stylesheet" href="styles.css">
-    <title>Portfolio</title>
+    <!-- import google font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600|Oxygen" rel="stylesheet">
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+        <!-- GITHUB BUTTON -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <!-- FONT AWESOME -->
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+        <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <!-- NAVBAR -->
+    <nav class="navbar is-transparent is-fixed-top">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="#"><img src="images/tina_heart_2.png"></a>
+        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+        <span></span>
+        <span></span>
+        <span></span>
+            </div>
+    </div>
+    <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-start">
+        </div>
+        <div class="navbar-end">
+        <div class="navbar-item">
+            <a class="navbar-item item-one" href="#portfolio-start">Portfolio</a>
+            <a class="navbar-item item-two" href="#about">About</a>
+            <a class="navbar-item item-three" href="#contact">Contact</a>
+        </div>
+        </div>
+    </div>
+    </nav>
+
 </body>
 </html>
