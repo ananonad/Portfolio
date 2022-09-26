@@ -4,6 +4,164 @@ html.sr .load-hidden {
 }
 
 body {
-    background-color: rgb(242, 242, 242);
+    background-color: black;
     font-family: 'Nunito', sans-serif;
 }
+.google-font {
+    font-family: 'Oxygen', sans-serif;
+    letter-spacing: 4px;
+  }
+  
+  .item-one:hover{
+    color: black !important;
+    text-decoration: underline;
+  }
+  
+  .item-two:hover{
+    color: black !important;
+    text-decoration: underline;
+  }
+  
+  .item-three:hover{
+    color: black !important;
+    text-decoration: underline;
+  }
+  
+  .image-border {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow:0 4px 8px 0 rgba(146, 145, 145, 0.2), 0 6px 20px 0 rgba(105, 105, 105, 0.19);
+  }
+  
+  .grid-border {
+    box-shadow: 0 5px 10px 0 rgba(164, 162, 162, 0.13), 0 3px 10px 0 rgba(201, 201, 201, 0.12);
+  }
+  
+  .icon-size {
+    font-size: 48px;
+  }
+  
+  h1 {
+    font-size: 1.15em;
+  }
+  
+
+
+.hero-image {
+    background: 
+    linear-gradient( 180deg,rgba(223, 223, 223, 0.12), rgb(242, 242, 242) );
+    background-size: cover;
+} 
+
+.section-padding {
+    padding: 5.5rem 1.5rem !important;
+  }
+  .footer {
+    margin-top: 4rem;
+    background-color: black;
+    padding: 4rem 1.5rem 0rem;
+  }
+  
+  .footer-style {
+    color: white!important;
+  }
+  
+  .footer-style a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+  } 
+  
+  .fa-github-square:hover {
+  color: black;
+  }
+  
+  .fa-linkedin:hover {
+    color: black;  
+  }
+  
+  .no-padding {
+    padding: 0px !important;
+  }
+  
+  .tina-padding {
+    padding: 2rem 0 0.8rem;
+  }
+  
+  .image-container {
+    position: relative;
+    transition: 0.3s ease;
+  } 
+  
+  .image-container:hover {
+    opacity: 0.70;
+  }
+  
+  hr {
+    border: 0;
+    height: 1px;
+    background-image: black;
+    margin: 0px !important;
+  }
+  
+  .grid-section {
+    margin-top: 5rem;
+  }
+  
+  .tooltip {
+    position: relative;
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 280px;
+    background-color: rgba(0, 0, 0, 0.687);
+    color:rgba(0, 0, 0, 0.687);
+    height: 80px;
+    top: 125%;
+    left: 50%; 
+    margin-left: -140px; /* Use half of the width (120/2 = 60), to center the tooltip */
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    bottom: 95%;  /* At the top of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.687) transparent transparent transparent;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  
+  .home-hero__social-icon{
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: left;
+  text-decoration: none;
+  }
+
+  .nav {
+    color: black;
+    background-color: black;
+  }
+
+  @media screen and (min-width: 1300px) {
+    .navbar-brand {
+      padding-left: 80px;
+
+    } 
+    .navbar-end {
+      padding-right: 80px;
+    }
+  }
