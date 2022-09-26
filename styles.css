@@ -47,8 +47,7 @@ body {
 
 
 .hero-image {
-    background: 
-    linear-gradient( 180deg,rgba(223, 223, 223, 0.12), rgb(242, 242, 242) );
+    background-color: black;
     background-size: cover;
 } 
 
@@ -82,9 +81,9 @@ body {
     padding: 0px !important;
   }
   
-  .tina-padding {
+  /* .tina-padding {
     padding: 2rem 0 0.8rem;
-  }
+  } */
   
   .image-container {
     position: relative;
@@ -151,10 +150,11 @@ body {
   text-decoration: none;
   }
 
-  .nav {
-    color: black;
+  .navbar {
     background-color: black;
-  }
+}
+  
+
 
   @media screen and (min-width: 1300px) {
     .navbar-brand {
