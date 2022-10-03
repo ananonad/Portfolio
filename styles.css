@@ -6,6 +6,7 @@ html.sr .load-hidden {
 body {
     background-color: black;
     font-family: 'Nunito', sans-serif;
+    color: white;
 }
 .google-font {
     font-family: 'Oxygen', sans-serif;
@@ -84,7 +85,9 @@ body {
   /* .tina-padding {
     padding: 2rem 0 0.8rem;
   } */
-  
+  .subtitle {
+    color: white;
+  }
   .image-container {
     position: relative;
     transition: 0.3s ease;
@@ -107,6 +110,7 @@ body {
   
   .tooltip {
     position: relative;
+
   }
   
   /* Tooltip text */
@@ -153,8 +157,37 @@ body {
   .navbar {
     background-color: black;
 }
+.navbar-item {
+  color: white;
+}
+.item-four {
+  outline-color: #FFF0F5;
+  outline-style: solid;
   
+}
+  
+.homepage{
+  font-size: larger;
+  font-family: 'Syne Mono', monospace;
+  color: white;
+  font-weight: bolder;
 
+}
+.logo {
+  font-size: larger;
+  font-family: 'Syne Mono', monospace;
+  color: white;
+  font-weight: bolder;
+}
+.title {
+  color: white;
+}
+
+
+/* .heropicture {
+  position: absolute;
+  right: auto;
+} */
 
   @media screen and (min-width: 1300px) {
     .navbar-brand {
