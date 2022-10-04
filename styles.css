@@ -159,6 +159,7 @@ body {
 }
 .navbar-item {
   color: white;
+  background-color: black;
 }
 .item-four {
   outline-color: #FFF0F5;
